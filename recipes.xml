@@ -1,0 +1,20 @@
+<config>
+	<append xpath="/recipes">
+
+		<recipe name="Adamantium Block" count="1" material_based="true" craft_area="forge" always_unlocked="true">
+			<ingredient name="unit_iron" count="3"/>
+			<ingredient name="unit_lead" count="1"/>
+			<ingredient name="unit_glass" count="10"/>
+			<ingredient name="unit_brass" count="1"/>
+		</recipe>
+
+		<recipe name="Adamantium Plate" count="4" material_based="true" craft_area="forge" always_unlocked="true">
+			<ingredient name="unit_iron" count="3"/>
+			<ingredient name="unit_lead" count="1"/>
+			<ingredient name="unit_glass" count="10"/>
+			<ingredient name="unit_brass" count="1"/>
+		</recipe>
+
+
+	</append>
+</config>

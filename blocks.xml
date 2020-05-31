@@ -1,0 +1,41 @@
+<config>
+	<append xpath="/blocks">
+
+		<block name="Adamantium Block">
+			<property name="Material" value="Mbedrock"/> <!--Pulls from the master game materials.xml file-->
+			<property name="Texture" value="191"/> <!-- Changes the texture to the same tex used for SS blocks -->
+<!-- 
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Plate"/> -->
+
+
+			<property name="CustomIcon" value="stainlessSteelBlock"/> <!-- Just the name of the png in the game's "ItemIcons" folder -->
+			<!-- <property name="CustomIcon" value="stainlessSteelPlate"/> -->
+
+			<property name="CustomIconTint" value="33ccff"/> <!-- Tints the icon so it looks a little different from the ss plate icon -->
+			<property name="CanPickup" value="true"/> <!-- So you can pick it up since you can't destroy it -->
+			<!-- Below line doesn't work yet... -->
+			<!-- <property name="TakeDelay" value="1"/> --> <!-- To make it harder to accidentally pick it up -->
+			<property name="SortOrder2" value="0150"/> 
+			<property name="DowngradeBlock" value="rConcretePlate"/>
+			<drop event="Fall" count="0" prob="0"/>
+			
+			
+			<property name="FilterTags" value="fbuilding,fother"/>
+			<property name="DescriptionKey" value="adamantiumBlockDesc"/><!--As of Alpha 18.4, these don't transmit from the server-->
+
+		</block>
+
+		<block name="Adamantium Plate">
+			<property name="Extends" value="Adamantium Block"/>
+ 
+			<property name="Shape" value="New"/>
+			<property name="Model" value="Plate"/>
+
+			<property name="CustomIcon" value="stainlessSteelPlate"/>
+			<property name="CustomIconTint" value="33ccff"/> <!-- Tints the icon so it looks a little different from the ss plate icon -->
+
+		</block>
+
+	</append>
+</config>
