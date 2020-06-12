@@ -1,0 +1,23 @@
+<configs>
+	<append xpath="/items">
+
+<item name="Adamantium Nugget">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="gems"/>
+	
+	<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	
+	<property name="CustomIcon" value="modGunMeleeBlessedMetal"/>
+	<property name="CustomIconTint" value="33ccff"/>
+
+	<property name="Material" value="MresourceSilverNugget"/>
+	<property name="Stacknumber" value="250"/> <!-- STK loot -->
+	<property name="EconomicValue" value="250"/>
+	<property name="CraftingIngredientTime" value="15"/>
+	<property name="Group" value="Resources,Chemicals,CFChemicals,Basics"/>
+	<property name="DescriptionKey" value="rareOresGroupDesc"/>
+</item>
+
+	</append>
+</configs>	
