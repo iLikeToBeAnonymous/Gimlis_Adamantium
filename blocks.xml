@@ -37,11 +37,12 @@
  
 			<property name="Shape" value="New"/>
 			<property name="Model" value="Plate"/>
+			<property name="DescriptionKey" value="adamantiumPlateDesc"/>
 
 			<property name="CustomIcon" value="stainlessSteelPlate"/>
 			<property name="CustomIconTint" value="33ccff"/> <!-- Tints the icon so it looks a little different from the ss plate icon -->
 			
-			<property name="TakeDelay" value="15"/> <!-- Doesn't do anything for now. -->
+			<property name="TakeDelay" value="5"/> <!-- Doesn't do anything for now. -->
 
 		</block>
 
