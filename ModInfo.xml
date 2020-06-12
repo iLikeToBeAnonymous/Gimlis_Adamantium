@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Gimli's_Adamantium" />
+		<Description value="Simple mod for cheaters to have indestructible stainless steel blocks." />
+		<Author value="Gimli" />
+		<Version value="1.0" compat="A18"/>
+	</ModInfo>
+</xml>
