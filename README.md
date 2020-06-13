@@ -9,6 +9,6 @@
 <h2>Notes on Game Syntax</h2>
 <h3>Localization.txt</h3>
 <ul>
-	<li>Changes to <code> Localization.txt </code> will not take effect until the game has been completely shut down and restarted.</li>
-	<li>Text color can be changed by framing the desired text in square brackets with a color code, followed by closing square brackets containing a dash. For example: <code> [02599c]Some Text[-] </code></li>
+	<li>Changes to <code>Localization.txt</code> will not take effect until the game has been completely shut down and restarted.</li>
+	<li>Text color can be changed by framing the desired text in square brackets with a color code, followed by closing square brackets containing a dash. For example: <code>[02599c]Some Text[-]</code></li>
 </ul>
