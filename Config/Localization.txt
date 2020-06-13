@@ -1,4 +1,4 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
-adamantiumBlock,blocks,Terrain,,,Adamantium Block,An indestructible block that you can pick back up.,,,,,,,,,,,,,
-adamantiumBlockDesc,blocks,Terrain,,,Can't be destroyed. Can be picked back up after placing.,,,,,,,,,,,,,,
-adamantiumPlateDesc,blocks,Terrain,,,Can't be destroyed. Can be picked back up after placing. Four plates can be hewn from one block.,,,,,,,,,,,,,,
+Key,File,Type,english,Context / Alternate Text
+adamantiumBlock,blocks,Terrain,Adamantium Block,An indestructible block that you can pick back up.
+adamantiumBlockDesc,blocks,Terrain,Can't be destroyed. Can be picked back up after placing.
+adamantiumPlateDesc,blocks,Terrain,"Can't be destroyed. Can be picked back up after placing. Four plates can be hewn from one block."
