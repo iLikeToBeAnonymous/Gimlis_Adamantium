@@ -1,56 +1,67 @@
 <config>
 	<append xpath="/recipes">
+	<!-- ####### Early-game crafting ####### -->
+
+		<!-- Day 1 plate resource construction -->
+		<recipe name="resourceAdamantiumNugget" count="1" material_based="true" craft_area="campfire" always_unlocked="true">
+			<ingredient name="resourceScrapIron" count="1"/>
+			<ingredient name="resourceCrushedSand" count="2"/>
+			<ingredient name="resourceClayLump" count="2"/>
+		</recipe>		
+
+		<!-- Day 1 plate construction -->
+		<recipe name="adamantiumPlate" count="1" material_based="true" craft_time="20" always_unlocked="true">
+			<ingredient name="resourceAdamantiumNugget" count="5"/>
+		</recipe>
+
+		<!-- If you REALLY want to construct a block directly from nuggets -->
+		<recipe name="adamantiumBlock" count="1" material_based="true" craft_time="80" always_unlocked="true">
+			<ingredient name="resourceAdamantiumNugget" count="20"/>
+		</recipe>
+
+		<!-- Meant to be the fast way of constructing a plate from a block -->
+		<recipe name="adamantiumPlate" count="4" material_based="true" craft_time="30" always_unlocked="true">
+			<ingredient name="adamantiumBlock" count="1"/>
+		</recipe>
 
 		<!-- Will likely nuke this recipe unless I give it a crazy speed or yield bonus-->
-		<recipe name="Adamantium Block" count="1" material_based="true" craft_area="forge" always_unlocked="true">
+		<recipe name="adamantiumBlock" count="1" material_based="true" craft_area="forge" always_unlocked="true">
 			<ingredient name="unit_iron" count="3"/>
 			<ingredient name="unit_lead" count="1"/>
 			<ingredient name="unit_glass" count="1"/>
 			<ingredient name="unit_brass" count="1"/>
 		</recipe>
 
-		<!-- Meant to be the fast way of constructing a plate from a block -->
-		<recipe name="Adamantium Plate" count="4" material_based="true" craft_time="30" always_unlocked="true">
-			<ingredient name="Adamantium Block" count="1"/>
+		<!-- Make an efficiency yield bonus for crafting at a forge -->
+		<recipe name="resourceAdamantiumNugget" count="3" material_based="true" craft_time="5" craft_area="forge" always_unlocked="true">
+			<ingredient name="unit_iron" count="1"/>
+			<ingredient name="unit_glass" count="2"/>
+			<ingredient name="unit_clay" count="2"/>
 		</recipe>
 
-		<!-- If you REALLY want to construct a block directly from nuggets -->
-		<recipe name="Adamantium Block" count="1" material_based="true" craft_time="120" always_unlocked="true">
-			<ingredient name="Adamantium Nugget" count="20"/>
-		</recipe>
 
-		<!-- 1st order priority of plate construction -->
-		<recipe name="Adamantium Plate" count="1" material_based="true" craft_time="30" always_unlocked="true">
-			<ingredient name="Adamantium Nugget" count="5"/>
-		</recipe>
+	<!-- #######################################-->
+	<!-- ####### Deconstruction Crafting #######-->
+	<!-- #######################################-->
 
 		<!-- Deconstruct a plate to nuggets on the fly -->
-		<recipe name="Adamantium Nugget" count="5" material_based="true" always_unlocked="true">
-			<ingredient name="Adamantium Plate" count="1"/>
+		<recipe name="resrcAdamantiumNuggetBundle5" count="1" material_based="true" craft_time="10" always_unlocked="true">
+			<ingredient name="adamantiumPlate" count="1"/>
 		</recipe>
 
-		<!-- Gotta be able to craft it on Day 1 -->
-		<recipe name="Adamantium Nugget" count="1" material_based="true" craft_area="campfire" always_unlocked="true">
-			<ingredient name="resourceScrapIron" count="1"/>
-			<ingredient name="resourceCrushedSand" count="2"/>
-			<ingredient name="resourceClayLump" count="2"/>
-		</recipe>
-
-		<!-- Make an efficiency yield bonus for crafting at a forge -->
-		<recipe name="Adamantium Nugget" count="3" material_based="true" craft_time="5" craft_area="forge" always_unlocked="true">
-			<ingredient name="resourceScrapIron" count="1"/>
-			<ingredient name="resourceCrushedSand" count="2"/>
-			<ingredient name="resourceClayLump" count="2"/>
-		</recipe>
-
-		<!-- Able to deconstruct a block -->
-		<recipe name="Adamantium Nugget" count="20" material_based="true" craft_time="5" craft_area="forge" always_unlocked="true">
-			<ingredient name="Adamantium Block" count="1"/>
+		<!-- Able to deconstruct a block on the fly-->
+		<recipe name="resrcAdamantiumNuggetBundle20" count="1" material_based="true" craft_time="40" always_unlocked="true">
+			<ingredient name="adamantiumBlock" count="1"/>
 		</recipe>
 
 		<!-- Able to deconstruct a plate at a forge with a speed bonus-->
-		<recipe name="Adamantium Nugget" count="5" material_based="true" craft_time="5" craft_area="forge" always_unlocked="true">
-			<ingredient name="Adamantium Plate" count="1"/>
+		<recipe name="resrcAdamantiumNuggetBundle5" count="1" material_based="true" craft_time="5" craft_area="forge" always_unlocked="true">
+			<ingredient name="adamantiumPlate" count="1"/>
+		</recipe>
+
+		<!-- Able to deconstruct a block at a forge with a speed bonus-->
+		<recipe name="resrcAdamantiumNuggetBundle20" count="1" material_based="true" craft_time="20" craft_area="forge" always_unlocked="true">
+			<ingredient name="adamantiumPlate" count="1"/>
 		</recipe>
 
 	</append>

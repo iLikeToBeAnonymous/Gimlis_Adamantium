@@ -1,7 +1,7 @@
 <config>
 	<append xpath="/blocks">
 
-		<block name="Adamantium Block">
+		<block name="adamantiumBlock">
 			<property name="Material" value="Mbedrock"/> <!--Pulls from the master game materials.xml file-->
 			<property name="Texture" value="191"/> <!-- Changes the texture to the same tex used for SS blocks -->
 
@@ -32,12 +32,11 @@
 
 		</block>
 
-		<block name="Adamantium Plate">
-			<property name="Extends" value="Adamantium Block"/>
+		<block name="adamantiumPlate">
+			<property name="Extends" value="adamantiumBlock"/>
  
 			<property name="Shape" value="New"/>
 			<property name="Model" value="Plate"/>
-			<property name="DescriptionKey" value="adamantiumPlateDesc"/>
 
 			<property name="CustomIcon" value="stainlessSteelPlate"/>
 			<property name="CustomIconTint" value="33ccff"/> <!-- Tints the icon so it looks a little different from the ss plate icon -->

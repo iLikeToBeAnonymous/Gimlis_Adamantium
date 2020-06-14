@@ -1,7 +1,7 @@
 <configs>
 	<append xpath="/items">
 
-<item name="Adamantium Nugget">
+<item name="resourceAdamantiumNugget">
 	<property name="HoldType" value="45"/>
 	<property name="Tags" value="gems"/>
 	
@@ -15,8 +15,42 @@
 	<property name="Stacknumber" value="250"/> <!-- STK loot -->
 	<property name="EconomicValue" value="250"/>
 	<property name="CraftingIngredientTime" value="15"/>
-	<property name="Group" value="Resources,Chemicals,CFChemicals,Basics"/>
-	<property name="DescriptionKey" value="rareOresGroupDesc"/>
+	<property name="Group" value="Basics,Resources,Chemicals,CFChemicals"/>
+	<property name="DescriptionKey" value="resourceAdamantiumNuggetDesc"/>
+</item>
+
+<item name="resrcAdamantiumNuggetBundle5"> <!-- For breaking a plate back down into nuggets -->
+	<property name="Extends" value="resourceAdamantiumNugget"/>
+	
+	<property name="CustomIcon" value="resourceSilverNugget"/>
+	<property name="CustomIconTint" value="33ccff"/>
+	<property name="DescriptionKey" value="resrcAdamantiumNuggetBundle5Desc"/>
+
+	<property class="Action0">
+			<property name="Class" value="OpenBundle"/>
+			<property name="Delay" value="0"/>
+			<property name="Use_time" value="0"/>
+			<property name="Sound_start" value="close_garbage"/>
+			<property name="Create_item" value="resourceAdamantiumNugget"/>
+			<property name="Create_item_count" value="5"/>
+	</property>
+</item>
+
+<item name="resrcAdamantiumNuggetBundle20"> <!-- For breaking a plate back down into nuggets -->
+	<property name="Extends" value="resourceAdamantiumNugget"/>
+	
+	<property name="CustomIcon" value="resourceSilverNugget"/>
+	<property name="CustomIconTint" value="33ccff"/>
+	<property name="DescriptionKey" value="resrcAdamantiumNuggetBundle20Desc"/>
+
+	<property class="Action0">
+			<property name="Class" value="OpenBundle"/>
+			<property name="Delay" value="0"/>
+			<property name="Use_time" value="0"/>
+			<property name="Sound_start" value="close_garbage"/>
+			<property name="Create_item" value="resourceAdamantiumNugget"/>
+			<property name="Create_item_count" value="20"/>
+	</property>
 </item>
 
 	</append>
