@@ -11,3 +11,6 @@ resrcAdamantiumNuggetBundle5Desc,items,Item,"5-piece bundle of adamantium nugget
 
 resrcAdamantiumNuggetBundle20,items,Item,"Adamantium Nuggets",
 resrcAdamantiumNuggetBundle20Desc,items,Item,"20-piece, family-size bundle of adamantium nuggets.\n\nLike chicken nuggets, only better (unless you're starving)."
+
+keystoneBlockPortableGMLI,blocks,Terrain,"[FF8C00]Nomad's Land Claim Block[-]"
+keystoneBlockPortableGMLIDesc,blocks,Terrain,"1/8-size, portable land claim block for survivors whose home is on the road. Just break it to take it with you.\n\nGreat for camping and being able to retrieve your firepit and other workstations (just make sure to pick up the block [U]LAST[/U])."

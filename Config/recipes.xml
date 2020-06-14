@@ -64,5 +64,16 @@
 			<ingredient name="adamantiumPlate" count="1"/>
 		</recipe>
 
+
+	<!-- #######################################-->
+	<!-- ########### Workbench Stuff ###########-->
+	<!-- #######################################-->
+
+		<!-- Portable Land Claim Block so player can pick up things like campfires and forges while hiding at night during travel -->
+		<recipe name="keystoneBlockPortableGMLI" count="1" material_based="true" craft_time="10" always_unlocked="true">
+			<ingredient name="resourceRockSmall" count="1"/>
+			<ingredient name="resourceClayLump" count="1"/>
+		</recipe>
+
 	</append>
 </config>
