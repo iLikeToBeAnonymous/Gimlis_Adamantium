@@ -12,5 +12,5 @@
 	<li>Changes to <code>Localization.txt</code> will not take effect until the game has been completely shut down and restarted.</li>
 	<li>Text color can be changed by framing the desired text in square brackets with a color code, followed by closing square brackets containing a dash. For example: <code>[02599c]Some Text[-]</code></li>
 	<li>A line break can be inserted in a description by inserting <code>\n</code></li>
-	<li>Text can be underlined as follows: <code>[U]text you want underlines[\U]</code> (those "U's" are capitalized).</li>
+	<li>Text can be underlined as follows: <code>[U]text you want underlined[\U]</code> (those "U's" are capitalized).</li>
 </ul>

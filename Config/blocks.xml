@@ -46,6 +46,7 @@
 		</block>
 
 		<!-- Based on post by Clockwork Orange @ https://community.7daystodie.com/topic/9304-adding-custom-workstations/-->
+		<!-- See xui.xml and windows.xml of this modlet for the other details on how this works. -->
 		<block name="[FF8C00]workstationResearchTable[-]">
 			<property name="Class" value="Workstation"/>
 
