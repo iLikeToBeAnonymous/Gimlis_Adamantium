@@ -1,4 +1,16 @@
 Key,File,Type,english,Context / Alternate Text
 adamantiumBlock,blocks,Terrain,Adamantium Block,An indestructible block that you can pick back up.
 adamantiumBlockDesc,blocks,Terrain,Can't be destroyed. Can be picked back up after placing.
-adamantiumPlateDesc,blocks,Terrain,"Can't be destroyed. Can be picked back up after placing. Four plates can be hewn from one block."
+adamantiumPlate,blocks,Terrain,Adamantium Plate,An indestructible block that you can pick back up.
+
+resourceAdamantiumNugget,items,Item,"Adamantium Nugget","Now what could this be used for?"
+resourceAdamantiumNuggetDesc,items,Item,"Adamantium alloy...\nStrange that you can make this in a campfire...\n\n[U][DECEA3]Crafting in a forge provides a yield bonus.[-][/U]"
+
+resrcAdamantiumNuggetBundle5,items,Item,"Adamantium Nuggets",
+resrcAdamantiumNuggetBundle5Desc,items,Item,"5-piece bundle of adamantium nuggets.\n\nLike chicken nuggets, only better (unless you're starving)."
+
+resrcAdamantiumNuggetBundle20,items,Item,"Adamantium Nuggets",
+resrcAdamantiumNuggetBundle20Desc,items,Item,"20-piece, family-size bundle of adamantium nuggets.\n\nLike chicken nuggets, only better (unless you're starving)."
+
+keystoneBlockPortableGMLI,blocks,Terrain,"[FF8C00]Nomad's Land Claim Block[-]"
+keystoneBlockPortableGMLIDesc,blocks,Terrain,"1/8-size, portable land claim block for survivors whose home is on the road. Just break it to take it with you.\n\nGreat for camping and being able to retrieve your firepit and other workstations (just make sure to pick up the block [U]LAST[/U])."
