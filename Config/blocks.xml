@@ -40,9 +40,44 @@
 
 			<property name="CustomIcon" value="stainlessSteelPlate"/>
 			<property name="CustomIconTint" value="33ccff"/> <!-- Tints the icon so it looks a little different from the ss plate icon -->
-			
-			<property name="TakeDelay" value="5"/> <!-- Doesn't do anything for now. -->
+		</block>
 
+		<block name="adamantiumSheetGMLI">
+			<property name="Extends" value="adamantiumBlock"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="billboard"/> <!-- <property name="Place" value="TowardsPlacerInverted"/> -->
+			<property name="Texture" value="194"/>
+			<!-- <property class="UpgradeBlock"> <property name="ToBlock" value="scrapIronSheet"/> </property> -->
+			<property name="CustomIcon" value="corrugatedMetalSheet"/>
+			<property name="CustomIconTint" value="33ccff"/>
+			<!-- <property name="UMA.Overlay0Tint" value="33ccff"/> -->
+		</block>
+
+		<block name="woodFloorJoistGMLI">
+			<property name="Extends" value="woodNoUpgradeMaster"/>
+			<property name="Shape" value="New"/>
+			<property name="Model" value="floor_joist"/>
+			<property name="CustomIcon" value="woodFloorJoist"/>
+
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="SortOrder2" value="0910"/> <!-- SortShape -->
+			<property name="UseGlobalUV" value="Local"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+			<property name="FilterTags" value="fbuilding,fwood,fdecor"/>
+			<drop event="Fall" count="0" prob="0"/>
+		</block>
+
+		<block name="woodWallStudGMLI">
+			<property name="Extends" value="woodWallStud"/>
+			<property name="Model" value="wall_stud"/> <property name="Place" value="TowardsPlacerInverted"/>
+			<property name="CustomIcon" value="woodFloorJoist"/>
+		</block>
+
+		<block name="woodFramingMstrGMLI">
+			<property name="Extends" value="woodFloorJoist"/>
+			<property name="SelectAlternates" value="true" />
+			<property name="PlaceAltBlockValue" value="woodWallStudGMLI,woodFloorJoistGMLI"/>
 		</block>
 
 	</append>
