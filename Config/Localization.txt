@@ -12,3 +12,5 @@ resrcAdamantiumNuggetBundle5Desc,items,Item,"5-piece bundle of adamantium nugget
 resrcAdamantiumNuggetBundle20,items,Item,"Adamantium Nuggets",
 resrcAdamantiumNuggetBundle20Desc,items,Item,"20-piece, family-size bundle of adamantium nuggets.\n\nLike chicken nuggets, only better (unless you're starving)."
 
+trapSpikesAdamantiumGMLI, blocks, Trap, "Adamantium Spike Ramparts",
+trapSpikesAdamantiumGMLIDesc, blocks, Trap, "Spike Trap that can't be broken.\nLet these do the stabbing for you.","Stab more, die less"

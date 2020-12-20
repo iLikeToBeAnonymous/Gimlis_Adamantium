@@ -29,7 +29,6 @@
 				<property name="TakeDelay" value="5"/> <!-- Doesn't work. Must experiment more to figure out why. -->
 			</property>
 			<property name="forge_category" value="MAdamantium"/><!-- Not implemented yet -->
-
 		</block>
 
 		<block name="adamantiumPlate">
@@ -52,6 +51,38 @@
 			<property name="CustomIconTint" value="33ccff"/>
 			<!-- <property name="UMA.Overlay0Tint" value="33ccff"/> -->
 		</block>
+
+		<block name="trapSpikesAdamantiumGMLI"> <!-- trapSpikesScrapIronMaster -->
+			<property name="Extends" value="adamantiumBlock"/>
+			<property name="Material" value="Mbedrock"/>
+			<property name="DowngradeBlock" value="adamantiumBlock"/>
+			<property name="CustomIcon" value="trapSpikesScrapIronMaster"/><property name="CustomIconTint" value="33ccff"/>
+			<property class="RepairItems"> <property name="resourceWood" value="10"/> </property>
+			
+			<property name="Class" value="TrunkTip"/>
+			<property name="BlockTag" value="Spike"/>
+			<property name="Damage" value="33"/>
+			<!-- <property name="Damage_received" value="33"/> -->
+			
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="Model" value="Traps/trap_iron_spikes_dmg0" param1="main_mesh"/>
+
+			<property name="IsTerrainDecoration" value="false"/>
+			<property name="ImposterExclude" value="true"/>
+			<property name="Collide" value="movement,melee"/>
+			<property name="LightOpacity" value="6"/>
+			<property name="Path" value="solid"/>
+
+			<property name="Group" value="Tools/Traps"/>
+			<property name="DescriptionKey" value="trapSpikesAdamantiumGMLIDesc"/>
+			<property name="EconomicValue" value="30"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="fdecor,ftraps"/>
+			<property name="SortOrder1" value="70g0"/>			
+		</block>
+
+
 
 		<block name="woodFloorJoistGMLI">
 			<property name="Extends" value="woodNoUpgradeMaster"/>

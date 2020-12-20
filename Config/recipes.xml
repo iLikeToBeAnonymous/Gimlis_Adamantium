@@ -10,7 +10,7 @@
 		</recipe>		
 
 		<!-- Day 1 plate construction -->
-		<recipe name="adamantiumPlate" count="1" material_based="true" craft_time="20" always_unlocked="true">
+		<recipe name="adamantiumPlate" count="1" material_based="true" craft_time="10" always_unlocked="true">
 			<ingredient name="resourceAdamantiumNugget" count="5"/>
 		</recipe>
 
