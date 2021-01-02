@@ -14,3 +14,6 @@ resrcAdamantiumNuggetBundle20Desc,items,Item,"20-piece, family-size bundle of ad
 
 trapSpikesAdamantiumGMLI, blocks, Trap, "Adamantium Spike Ramparts",
 trapSpikesAdamantiumGMLIDesc, blocks, Trap, "Spike Trap that can't be broken.\nLet these do the stabbing for you.","Stab more, die less"
+
+adamantiumSheetGMLI, blocks, Block, "Adamantium Sheeting",
+adamantiumSheetGMLIDesc, blocks, Block, "Some tough sheet...\nGreat for covering gaps between terrain and structures." 

@@ -15,22 +15,22 @@
 		</recipe>
 
 		<!-- If you REALLY want to construct a block directly from nuggets -->
-		<recipe name="adamantiumBlock" count="1" material_based="true" craft_time="80" always_unlocked="true">
+		<recipe name="adamantiumBlock" count="1" material_based="true" craft_time="10" always_unlocked="true">
 			<ingredient name="resourceAdamantiumNugget" count="20"/>
 		</recipe>
 
 		<!-- Meant to be the fast way of constructing a plate from a block -->
-		<recipe name="adamantiumPlate" count="4" material_based="true" craft_time="30" always_unlocked="true">
+		<!-- <recipe name="adamantiumPlate" count="4" material_based="true" craft_time="30" always_unlocked="true">
 			<ingredient name="adamantiumBlock" count="1"/>
-		</recipe>
+		</recipe> -->
 
 		<!-- Will likely nuke this recipe unless I give it a crazy speed or yield bonus-->
-		<recipe name="adamantiumBlock" count="1" material_based="true" craft_area="forge" always_unlocked="true">
+		<!-- <recipe name="adamantiumBlock" count="1" material_based="true" craft_area="forge" always_unlocked="true">
 			<ingredient name="unit_iron" count="3"/>
 			<ingredient name="unit_lead" count="1"/>
 			<ingredient name="unit_glass" count="1"/>
 			<ingredient name="unit_brass" count="1"/>
-		</recipe>
+		</recipe> -->
 
 		<!-- Make an efficiency yield bonus for crafting at a forge -->
 		<recipe name="resourceAdamantiumNugget" count="3" material_based="true" craft_time="5" craft_area="forge" always_unlocked="true">
@@ -39,6 +39,14 @@
 			<ingredient name="unit_clay" count="2"/>
 		</recipe>
 
+		<recipe name="trapSpikesAdamantiumGMLI" count="1" material_based="true" craft_time="5" always_unlocked="true">
+			<ingredient name="resourceScrapIron" count="3"/>
+			<ingredient name="resourceAdamantiumNugget" count="8"/>
+		</recipe>
+
+		<recipe name="adamantiumSheetGMLI" count="1" material_based="true" craft_time="5" always_unlocked="true">
+			<ingredient name="resourceAdamantiumNugget" count="3"/>
+		</recipe>
 
 	<!-- #######################################-->
 	<!-- ####### Deconstruction Crafting #######-->
@@ -52,16 +60,6 @@
 		<!-- Able to deconstruct a block on the fly-->
 		<recipe name="resrcAdamantiumNuggetBundle20" count="1" material_based="true" craft_time="40" always_unlocked="true">
 			<ingredient name="adamantiumBlock" count="1"/>
-		</recipe>
-
-		<!-- Able to deconstruct a plate at a forge with a speed bonus-->
-		<recipe name="resrcAdamantiumNuggetBundle5" count="1" material_based="true" craft_time="5" craft_area="forge" always_unlocked="true">
-			<ingredient name="adamantiumPlate" count="1"/>
-		</recipe>
-
-		<!-- Able to deconstruct a block at a forge with a speed bonus-->
-		<recipe name="resrcAdamantiumNuggetBundle20" count="1" material_based="true" craft_time="20" craft_area="forge" always_unlocked="true">
-			<ingredient name="adamantiumPlate" count="1"/>
 		</recipe>
 
 	</append>

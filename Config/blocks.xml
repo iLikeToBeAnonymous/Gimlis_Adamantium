@@ -43,6 +43,7 @@
 
 		<block name="adamantiumSheetGMLI">
 			<property name="Extends" value="adamantiumBlock"/>
+			<property name="DescriptionKey" value="adamantiumSheetGMLIDesc"/>
 			<property name="Shape" value="New"/>
 			<property name="Model" value="billboard"/> <!-- <property name="Place" value="TowardsPlacerInverted"/> -->
 			<property name="Texture" value="194"/>
